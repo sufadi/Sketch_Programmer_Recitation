@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="5dp">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/sp_actor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/actor_name"/>
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:background="@android:color/holo_red_light"
+        android:text="下一句" />
+
+</LinearLayout>
